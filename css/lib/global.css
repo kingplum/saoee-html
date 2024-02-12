@@ -228,6 +228,12 @@
     }
 }
 
+@media (min-width: 768px) {
+    .pe-md-6 {
+        padding-right: 6rem;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .section {
         max-width: 100%;
