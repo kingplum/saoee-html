@@ -230,7 +230,7 @@
 
 @media (min-width: 768px) {
     .pe-md-6 {
-        padding-right: 6rem;
+        padding-right: 6rem !important;
     }
 }
 
