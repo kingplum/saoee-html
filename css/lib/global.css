@@ -122,6 +122,10 @@
 	background-size: 20% auto;
 }
 
+.sub1, .sub2, .sub3 {
+	position: relative;
+}
+
 .sub1::before {
 	content: "";
 	height: 100%;
@@ -164,16 +168,14 @@
     background-size: 30% auto;
 }
 
+.blbg {
+	background-color: #F1F2F280;
+}
+
 section {
 	max-width: 100%;
 	width: 100%;
 	position: relative;
-}
-
-.container--secondary {
-	/* max-width: 1320px; */
-	width: 100%;
-	padding-left: 120px !important;
 }
 
 .section__heading {
@@ -380,10 +382,6 @@ form button[type="submit"] {
 	}
 
 	.container--primary {
-		padding: 16px !important;
-	}
-
-	.container--secondary {
 		padding: 16px !important;
 	}
 

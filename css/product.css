@@ -160,32 +160,9 @@
 }
 
 /* WILD MAP */
-.section__role {
-	padding-top: 85px;
-	padding-bottom: 25px;
-}
-
-.section__role::before {
-	content: "";
-	width: 400px;
+.role-img {
 	height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background-image: url("../images/0d19e0782df61b17d4f6dd0ada41c3eb.jpg");
-	background-size: cover;
-	background-position: 60% 0;
-	background-repeat: no-repeat;
-}
-
-/* DESIGN FACTOR */
-.section__desigin-factor {
-	padding-top: 65px;
-	padding-bottom: 60px;
-	background-color: #F1F2F280;
-	background-image: url("../images/Layer_4.png");
-	background-repeat: no-repeat;
-	background-position: calc(100% + 120px) 0;
+	object-fit: cover;
 }
 
 /* STEP */
