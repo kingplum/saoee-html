@@ -115,7 +115,14 @@
 	background-size: 18% auto;
 }
 
-.glbg.sub1::before {
+.glbgv2 {
+	background-image: url("../../images/background_2.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 20% auto;
+}
+
+.sub1::before {
 	content: "";
 	height: 100%;
 	width: 100%;
@@ -129,7 +136,7 @@
 	background-size: 50% 25%;
 }
 
-.glbg.sub2::before {
+.sub2::before {
 	content: "";
 	height: 100%;
 	width: 100%;
@@ -143,7 +150,7 @@
 	background-size: 20% auto;
 }
 
-.glbg.sub3::before {
+.sub3::before {
 	content: "";
 	height: 100%;
 	width: 100%;
