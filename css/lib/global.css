@@ -136,7 +136,7 @@
     background-image: url('../../images/Layer_4.png');
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 50% 25%;
+    background-size: 20% auto;
 }
 section {
     max-width: 100%;
