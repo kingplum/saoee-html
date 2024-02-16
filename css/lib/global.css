@@ -112,7 +112,7 @@
     background-position: 0 60%;
     background-size: 18% auto;
 }
-.glbg::before {
+.glbg.sub1::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -125,7 +125,19 @@
     background-position: top left;
     background-size: 50% 25%;
 }
-
+.glbg.sub2::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    background-image: url('../../images/Layer_4.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 50% 25%;
+}
 section {
     max-width: 100%;
     width: 100%;
