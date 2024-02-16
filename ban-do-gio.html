@@ -1,405 +1,394 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
-        integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="../assets/css/product/index.css?v=1">
-
-    <title>Dự án - Bản đồ gió</title>
-</head>
-
-<body>
-
-    <div class="wrapper">
-        <!-- Header -->
-        <div class="position-absolute z-3 top-0 start-0">
-            <header class="header bg-white z-3 shadow-sm px-5 px-sm-0">
-                <h1>
-                    <a href="#">
-                        <div class="header__logo">
-                            <img src="../assets/images/Logo.png" alt="Logo" class="container">
-                        </div>
-                    </a>
-                </h1>
-                <nav class="navbar z-3">
-                    <ul class="nav d-flex flex-column gap-sm-3 gap-0">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active text-uppercase">Trang chủ</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#"
-                                class="nav-link text-uppercase d-flex align-items-center justify-content-between">
-                                <span>Sản phẩm</span>
-                                <i class="fa-solid fa-chevron-down d-block d-sm-none px-2"></i>
-                            </a>
-                            <ul class="dropdown-menu shadow-sm">
-                                <li>
-                                    <a class="dropdown-item text-uppercase" href="#">
-                                        Mô phỏng Cháy thoát hiểm
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-uppercase" href="#">
-                                        Mô phỏng Tiện nghi trong Công trình
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-uppercase" href="#">
-                                        Giải pháp Ứng dụng Thông gió cho Nhà
-                                        xưởng
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-uppercase">Dịch vụ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-uppercase">Dự án</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-uppercase">Tin tức</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-uppercase">Liên hệ</a>
-                        </li>
-                        <li class="nav-item d-block d-sm-none">
-                            <div class="icon-32 p-1">
-                                <img src="../assets/images/vietnam 1.png" alt="Việt Nam">
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="d-sm-flex d-none justify-content-between container align-items-center p-0 px-3">
-                    <div class="icon-32">
-                        <img src="../assets/images/vietnam 1.png" alt="Việt Nam">
-                    </div>
-                    <i class="fa-solid fa-chevron-down p-1"></i>
-                </div>
-                <div class="header__menu-icon d-block d-sm-none p-3">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-xmark d-none"></i>
-                </div>
-            </header>
-        </div>
-
-        <!-- Main -->
-        <main class="main">
-            <!-- Banner -->
-            <section class="section section__banner">
-                <div class="banner__container">
-                    <div class="banner__image z-0">
-                        <img src="./../assets/images/ade34dc32f128cfd8bb25441365c38c9.jpg" alt="">
-                    </div>
-                    <div class="banner__container container--primary d-flex align-items-center">
-                        <h1 class="banner__title fw-bold text-white text-capitalize">
-                            Bản đồ gió Giải pháp ứng dụng <br>
-                            thông gió cho nhà xưởng
-                        </h1>
-                    </div>
-                </div>
-                <div class="banner__nav">
-                    <div class="nav__container container--primary d-flex align-items-center text-black-4 fs-6 h-100">
-                        <i class="fa-solid fa-house"></i>
-                        <i class="fa-solid fa-angle-right"></i>
-                        <span class="fw-semibold text-uppercase">Sản phẩm</span>
-                        <i class="fa-solid fa-angle-right"></i>
-                        <span class="text-red fw-semibold text-uppercase">Bản đồ gió - Giải pháp ứng dụng cho nhà
-                            xưởng</span>
-                    </div>
-                </div>
-            </section>
-            <!-- Role - Harm -->
-            <section class="section section__role">
-                <div class="container--primary">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-sm-8 px-0">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-10 px-0">
-                                            <h2 class="section__title--2 text-start text-sm-center">
-                                                Vai trò của hệ thống thông gió trong nhà xưởng
-                                            </h2>
-                                            <p class="section__text--1 mt-5">Hệ thống thông gió là một hệ thống quan
-                                                trọng trong nhà xưởng, có chức năng cung cấp không khí tươi, loại bỏ
-                                                không khí ô nhiễm, tạo ra môi trường làm việc an toàn và thoải mái cho
-                                                người lao động.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <h2 class="section__title--2 text-start text-sm-center">
-                                        Tác hại của hệ thống thông gió kém
-                                    </h2>
-                                    <p class="section__text--1 mt-2 pe-sm-5 pe-0">Nếu hệ thống thông gió trong nhà xưởng hoạt
-                                        động không tốt, diễn ra thời gian dài sẽ dẫn đến nồng độ bụi tích tụ trong nhà
-                                        xưởng sẽ tăng lên. Đồng thời, quá trình hô hấp của con người cũng làm tăng nồng
-                                        độ khí CO2, giảm O2 xuống rất nhiều. Cùng với sự ẩm ướt trong nhà xưởng làm nấm
-                                        mốc, vi khuẩn phát triển. Các khí thải độc hại như formaldehyd, virut, nấm
-                                        mốc,... tích tụ ngày một nhiều gây ảnh hưởng lớn đến sức khỏe của con người.
-                                        Lượng bụi bẩn trong nhà xưởng tăng lên sẽ là nguy cơ gây các bệnh nguy hiểm đến
-                                        sức khỏe và tính mạng con người. Kết hợp với sự thiếu khí sẽ làm quá trình hô
-                                        hấp của con người trở nên khó khăn hơn. Do đó, cần phải sử dụng các biện pháp
-                                        can thiệp kịp
-                                        thời.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Design factor -->
-            <section class="section section__desigin-factor">
-                <div class="container ms-auto me-0">
-                    <div class="row">
-                        <div class="col-12 col-sm-4 p-5">
-                            <div class="overflow-hidden rounded-circle ratio ratio-1x1 border border-white border-3">
-                                <img src="./../assets/images/0d19e0782df61b17d4f6dd0ada41c3eb.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <h2 class="section__title--2 text-start text-sm-center">
-                                Các yếu tố cần xem xét khi thiết <br> kế hệ thống thông gió
-                            </h2>
-                            <div class="d-flex flex-column gap-4 mt-5">
-                                <div>
-                                    <div class="d-flex align-items-center gap-2">
-                                        <i class="fa-solid fa-circle text-green fs-12"></i>
-                                        <h3 class="section__title--3">
-                                            nguồn bụi và khói
-                                        </h3>
-                                    </div>
-                                    <p class="section__text--1">
-                                        Nguồn bụi và khói trong nhà xưởng có thể đến từ nhiều nguồn khác nhau, chẳng hạn
-                                        như quá trình sản xuất, máy móc, thiết bị,... Khả năng phát tán của bụi và khói
-                                        trong nhà xưởng cũng cần được xem xét.
-                                    </p>
-                                </div>
-                                <div>
-                                    <div class="d-flex align-items-center gap-2">
-                                        <i class="fa-solid fa-circle text-green fs-12"></i>
-                                        <h3 class="section__title--3">
-                                            Cách bố trí nhà máy
-                                        </h3>
-                                    </div>
-                                    <p class="section__text--1">
-                                        Cách bố trí nhà máy ảnh hưởng lớn đến luồng không khí trong nhà xưởng. Các khu
-                                        vực sản xuất, khu vực làm việc, khu vực lưu trữ,... cần được bố trí hợp lý để
-                                        đảm bảo luồng không khí lưu thông tốt.
-                                    </p>
-                                </div>
-                                <div>
-                                    <div class="d-flex align-items-center gap-2">
-                                        <i class="fa-solid fa-circle text-green fs-12"></i>
-                                        <h3 class="section__title--3">
-                                            Các mô hình luồng không khí hiện tại
-                                        </h3>
-                                    </div>
-                                    <p class="section__text--1">
-                                        Các mô hình luồng không khí hiện tại cần được nghiên cứu để xác định các điểm
-                                        nóng, các khu vực có nguy cơ ô nhiễm cao.
-                                    </p>
-                                </div>
-                                <div>
-                                    <div class="d-flex align-items-center gap-2">
-                                        <i class="fa-solid fa-circle text-green fs-12"></i>
-                                        <h3 class="section__title--3">
-                                            Các thay đổi quy trình trong tương lai
-                                        </h3>
-                                    </div>
-                                    <p class="section__text--1">
-                                        Nếu có các thay đổi quy trình trong tương lai, cần xem xét các tác động của các
-                                        thay đổi đó đến hệ thống thông gió.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Step -->
-            <section class="section section__step">
-                <div class="container--secondary step__container">
-                    <div class="container m-auto">
-                        <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <h2 class="section__title--2 ps-sm-5 ps-0 text-start text-sm-center">
-                                    Ventilation Mapping <br>
-                                    thực hiện theo năm bước
-                                </h2>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex flex-column gap-3 mt-3 mt-sm-0">
-                                <div class="d-flex gap-4 align-items-center">
-                                    <div class="icon-40">
-                                        <img src="./../assets/images/Icon_Step_1.png" alt="Icon">
-                                    </div>
-                                    <h3 class="section__title--3 border-bottom p-2 flex-grow-1">
-                                        Bước 1  | Tư vấn Tại chỗ
-                                    </h3>
-                                </div>
-                                <div class="d-flex gap-4 align-items-center">
-                                    <div class="icon-40">
-                                        <img src="./../assets/images/Icon_Step_2.png" alt="Icon">
-                                    </div>
-                                    <h3 class="section__title--3 border-bottom p-2 flex-grow-1">
-                                        Bước 2  | Thu thập dữ liệu
-                                    </h3>
-                                </div>
-                                <div class="d-flex gap-4 align-items-center">
-                                    <div class="icon-40">
-                                        <img src="./../assets/images/Icon_Step_3.png" alt="Icon">
-                                    </div>
-                                    <h3 class="section__title--3 border-bottom p-2 flex-grow-1">
-                                        Bước 3  | Mô hình hóa
-                                    </h3>
-                                </div>
-                                <div class="d-flex gap-4 align-items-center">
-                                    <div class="icon-40">
-                                        <img src="./../assets/images/Icon_Step_4.png" alt="Icon">
-                                    </div>
-                                    <h3 class="section__title--3 border-bottom p-2 flex-grow-1">
-                                        Bước 4  | Thiết kế hệ thống
-                                    </h3>
-                                </div>
-                                <div class="d-flex gap-4 align-items-center">
-                                    <div class="icon-40">
-                                        <img src="./../assets/images/Icon_Step_5.png" alt="Icon">
-                                    </div>
-                                    <h3 class="section__title--3 border-bottom p-2 flex-grow-1">
-                                        Bước 5  | Đánh giá và phân tích cuối cùng
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step__image d-flex">
-                        <img class="m-auto img-fluid" src="./../assets/images/the-air-temperature-inside-the-factory.png" alt="">
-                    </div>
-                    <div class="step__image d-flex">
-                        <img class="m-auto" src="./../assets/images/the-air-temperature-inside-the-factory.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <!-- Contact -->
-            <section class="section section__contact">
-                <div class="contact__container container--primary h-100">
-                    <div class="contact__wrapper">
-                        <h2 class="contact__slogan">
-                            Cần tư vấn, hãy liên hệ chúng tôi.
-                        </h2>
-                        <a href="#" class="btn-contact flex-grow-0 mt-3 mt-sm-0">Liên hệ</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div
-                class="footer__container d-flex flex-column-reverse flex-sm-row justify-content-between align-sm-items-center align-items-start">
-                <div class="footer__logo">
-                    <img src="../assets/images/logo-footer.png" alt="Logo">
-                </div>
-                <div class="d-flex gap-5 flex-1">
-                    <nav class="d-none d-sm-block">
-                        <ul class="nav d-flex flex-column gap-sm-3 gap-0">
-                            <li class="nav-item flex-grow-0">
-                                <a href="#" class="nav-link active text-uppercase">Trang chủ</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link text-uppercase">Sản phẩm</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-uppercase">Dịch vụ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-uppercase">Dự án</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-uppercase">Tin tức</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-uppercase">Liên hệ</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="d-flex flex-column gap-4 flex-grow-0">
-                        <h2 class="fs-5 text-capitalize d-inline-block w-fit-content fw-bold company__name">
-                            Công ty Cổ phần Tư vấn Thiết kế SAO
-                        </h2>
-                        <div
-                            class="d-flex flex-row flex-sm-column gap-2 w-sm-300 flex-wrap flex-sm-nowrap w-100 justify-content-center justify-content-sm-start gap-14">
-                            <div class="d-flex flex-column flex-sm-row gap-2 align-items-center w-100 w-sm-auto">
-                                <div class="icon-20">
-                                    <img src="../assets/images/icon_add_location.png" alt="">
-                                </div>
-                                <p class="footer__text">
-                                    L17-11, Vincom Center Buildings, 72 Lê Thánh Tôn, P. Bến Nghé, Quận 1, TP. Hồ Chí
-                                    Minh, Việt Nam
-                                </p>
-                            </div>
-                            <div class="d-flex gap-2 flex-column flex-sm-row align-items-center">
-                                <div class="icon-20">
-                                    <img src="../assets/images/icon_drafts.png" alt="">
-                                </div>
-                                <p class="footer__text">
-                                    info@sao-ee.vn
-                                </p>
-                            </div>
-                            <div class="d-flex gap-2 flex-column flex-sm-row align-items-center">
-                                <div class="icon-20">
-                                    <img src="../assets/images/icon_add_ic_call.png" alt="">
-                                </div>
-                                <p class="footer__text">
-                                    (+84) 28 6682 2233
-                                </p>
-                            </div>
-                            <div class="d-flex gap-2 flex-column flex-sm-row align-items-center">
-                                <div class="icon-20">
-                                    <img src="../assets/images/icon_margin.png" alt="">
-                                </div>
-                                <p class="footer__text">
-                                    MST: 0313639154
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__line">
-            </div>
-            <div class="bg-black text-center fs-6 fw-medium text-white py-3">
-                <p class="mb-0">Copyright © 2024 SAO-EE.All Rights Reserved.</p>
-            </div>
-        </footer>
-    </div>
-
-    <!-- Main js -->
-    <script src="../assets/js/header.js"></script>
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
-        integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-</body>
-
+<html lang="vi">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+			integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="../assets/css/product/index.css?v=1">
+		<title>Dự án - Bản đồ gió</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!-- Header -->
+			<div class="position-absolute z-3 top-0 start-0">
+				<header class="header bg-white z-3 shadow-sm px-5 px-sm-0">
+					<h1>
+						<a href="#">
+							<div class="header__logo">
+								<img src="../assets/images/Logo.png" alt="Logo" class="container">
+							</div>
+						</a>
+					</h1>
+					<nav class="navbar z-3">
+						<ul class="nav d-flex flex-column gap-sm-3 gap-0">
+							<li class="nav-item">
+								<a href="#" class="nav-link active text-uppercase">Trang chủ</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#"
+									class="nav-link text-uppercase d-flex align-items-center justify-content-between">
+								<span>Sản phẩm</span>
+								<i class="fa-solid fa-chevron-down d-block d-sm-none px-2"></i>
+								</a>
+								<ul class="dropdown-menu shadow-sm">
+									<li>
+										<a class="dropdown-item text-uppercase" href="#">
+										Mô phỏng Cháy thoát hiểm
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item text-uppercase" href="#">
+										Mô phỏng Tiện nghi trong Công trình
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item text-uppercase" href="#">
+										Giải pháp Ứng dụng Thông gió cho Nhà
+										xưởng
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-uppercase">Dịch vụ</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-uppercase">Dự án</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-uppercase">Tin tức</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-uppercase">Liên hệ</a>
+							</li>
+							<li class="nav-item d-block d-sm-none">
+								<div class="icon-32 p-1">
+									<img src="../assets/images/vietnam 1.png" alt="Việt Nam">
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<div class="d-sm-flex d-none justify-content-between container align-items-center p-0 px-3">
+						<div class="icon-32">
+							<img src="../assets/images/vietnam 1.png" alt="Việt Nam">
+						</div>
+						<i class="fa-solid fa-chevron-down p-1"></i>
+					</div>
+					<div class="header__menu-icon d-block d-sm-none p-3">
+						<i class="fa-solid fa-bars"></i>
+						<i class="fa-solid fa-xmark d-none"></i>
+					</div>
+				</header>
+			</div>
+			<!-- Main -->
+			<main class="main">
+				<!-- Banner -->
+				<section class="section section__banner">
+					<div class="banner__container">
+						<div class="banner__image z-0">
+							<img src="./../assets/images/ade34dc32f128cfd8bb25441365c38c9.jpg" alt="">
+						</div>
+						<div class="banner__container container--primary d-flex align-items-center">
+							<h1 class="banner__title fw-bold text-white text-capitalize">
+								Bản đồ gió Giải pháp ứng dụng <br>
+								thông gió cho nhà xưởng
+							</h1>
+						</div>
+					</div>
+					<div class="banner__nav">
+						<div class="nav__container container--primary d-flex align-items-center text-black-4 fs-6 h-100">
+							<i class="fa-solid fa-house"></i>
+							<i class="fa-solid fa-angle-right"></i>
+							<span class="fw-semibold text-uppercase">Sản phẩm</span>
+							<i class="fa-solid fa-angle-right"></i>
+							<span class="text-red fw-semibold text-uppercase">Bản đồ gió - Giải pháp ứng dụng cho nhà
+							xưởng</span>
+						</div>
+					</div>
+				</section>
+				<!-- Role - Harm -->
+				<section class="section section__role">
+					<div class="container--primary">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-sm-8 px-0">
+									<div class="container">
+										<div class="row">
+											<div class="col-12 col-sm-10 px-0">
+												<h2 class="section__title--2 text-start text-sm-center">
+													Vai trò của hệ thống thông gió trong nhà xưởng
+												</h2>
+												<p class="section__text--1 mt-5">Hệ thống thông gió là một hệ thống quan
+													trọng trong nhà xưởng, có chức năng cung cấp không khí tươi, loại bỏ
+													không khí ô nhiễm, tạo ra môi trường làm việc an toàn và thoải mái cho
+													người lao động.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="d-flex flex-column">
+										<h2 class="section__title--2 text-start text-sm-center">
+											Tác hại của hệ thống thông gió kém
+										</h2>
+										<p class="section__text--1 mt-2 pe-sm-5 pe-0">Nếu hệ thống thông gió trong nhà xưởng hoạt
+											động không tốt, diễn ra thời gian dài sẽ dẫn đến nồng độ bụi tích tụ trong nhà
+											xưởng sẽ tăng lên. Đồng thời, quá trình hô hấp của con người cũng làm tăng nồng
+											độ khí CO2, giảm O2 xuống rất nhiều. Cùng với sự ẩm ướt trong nhà xưởng làm nấm
+											mốc, vi khuẩn phát triển. Các khí thải độc hại như formaldehyd, virut, nấm
+											mốc,... tích tụ ngày một nhiều gây ảnh hưởng lớn đến sức khỏe của con người.
+											Lượng bụi bẩn trong nhà xưởng tăng lên sẽ là nguy cơ gây các bệnh nguy hiểm đến
+											sức khỏe và tính mạng con người. Kết hợp với sự thiếu khí sẽ làm quá trình hô
+											hấp của con người trở nên khó khăn hơn. Do đó, cần phải sử dụng các biện pháp
+											can thiệp kịp
+											thời.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Design factor -->
+				<section class="section section__desigin-factor">
+					<div class="container ms-auto me-0">
+						<div class="row">
+							<div class="col-12 col-sm-4 p-5">
+								<div class="overflow-hidden rounded-circle ratio ratio-1x1 border border-white border-3">
+									<img src="./../assets/images/0d19e0782df61b17d4f6dd0ada41c3eb.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-12 col-sm-8">
+								<h2 class="section__title--2 text-start text-sm-center">
+									Các yếu tố cần xem xét khi thiết <br> kế hệ thống thông gió
+								</h2>
+								<div class="d-flex flex-column gap-4 mt-5">
+									<div>
+										<div class="d-flex align-items-center gap-2">
+											<i class="fa-solid fa-circle text-green fs-12"></i>
+											<h3 class="section__title--3">
+												nguồn bụi và khói
+											</h3>
+										</div>
+										<p class="section__text--1">
+											Nguồn bụi và khói trong nhà xưởng có thể đến từ nhiều nguồn khác nhau, chẳng hạn
+											như quá trình sản xuất, máy móc, thiết bị,... Khả năng phát tán của bụi và khói
+											trong nhà xưởng cũng cần được xem xét.
+										</p>
+									</div>
+									<div>
+										<div class="d-flex align-items-center gap-2">
+											<i class="fa-solid fa-circle text-green fs-12"></i>
+											<h3 class="section__title--3">
+												Cách bố trí nhà máy
+											</h3>
+										</div>
+										<p class="section__text--1">
+											Cách bố trí nhà máy ảnh hưởng lớn đến luồng không khí trong nhà xưởng. Các khu
+											vực sản xuất, khu vực làm việc, khu vực lưu trữ,... cần được bố trí hợp lý để
+											đảm bảo luồng không khí lưu thông tốt.
+										</p>
+									</div>
+									<div>
+										<div class="d-flex align-items-center gap-2">
+											<i class="fa-solid fa-circle text-green fs-12"></i>
+											<h3 class="section__title--3">
+												Các mô hình luồng không khí hiện tại
+											</h3>
+										</div>
+										<p class="section__text--1">
+											Các mô hình luồng không khí hiện tại cần được nghiên cứu để xác định các điểm
+											nóng, các khu vực có nguy cơ ô nhiễm cao.
+										</p>
+									</div>
+									<div>
+										<div class="d-flex align-items-center gap-2">
+											<i class="fa-solid fa-circle text-green fs-12"></i>
+											<h3 class="section__title--3">
+												Các thay đổi quy trình trong tương lai
+											</h3>
+										</div>
+										<p class="section__text--1">
+											Nếu có các thay đổi quy trình trong tương lai, cần xem xét các tác động của các
+											thay đổi đó đến hệ thống thông gió.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Step -->
+				<section class="section section__step">
+					<div class="container--secondary step__container">
+						<div class="container m-auto">
+							<div class="row">
+								<div class="col-12 col-sm-6">
+									<h2 class="section__title--2 ps-sm-5 ps-0 text-start text-sm-center">
+										Ventilation Mapping <br>
+										thực hiện theo năm bước
+									</h2>
+								</div>
+								<div class="col-12 col-sm-6 d-flex flex-column gap-3 mt-3 mt-sm-0">
+									<div class="d-flex gap-4 align-items-center">
+										<div class="icon-40">
+											<img src="./../assets/images/Icon_Step_1.png" alt="Icon">
+										</div>
+										<h3 class="section__title--3 border-bottom p-2 flex-grow-1">
+											Bước 1  | Tư vấn Tại chỗ
+										</h3>
+									</div>
+									<div class="d-flex gap-4 align-items-center">
+										<div class="icon-40">
+											<img src="./../assets/images/Icon_Step_2.png" alt="Icon">
+										</div>
+										<h3 class="section__title--3 border-bottom p-2 flex-grow-1">
+											Bước 2  | Thu thập dữ liệu
+										</h3>
+									</div>
+									<div class="d-flex gap-4 align-items-center">
+										<div class="icon-40">
+											<img src="./../assets/images/Icon_Step_3.png" alt="Icon">
+										</div>
+										<h3 class="section__title--3 border-bottom p-2 flex-grow-1">
+											Bước 3  | Mô hình hóa
+										</h3>
+									</div>
+									<div class="d-flex gap-4 align-items-center">
+										<div class="icon-40">
+											<img src="./../assets/images/Icon_Step_4.png" alt="Icon">
+										</div>
+										<h3 class="section__title--3 border-bottom p-2 flex-grow-1">
+											Bước 4  | Thiết kế hệ thống
+										</h3>
+									</div>
+									<div class="d-flex gap-4 align-items-center">
+										<div class="icon-40">
+											<img src="./../assets/images/Icon_Step_5.png" alt="Icon">
+										</div>
+										<h3 class="section__title--3 border-bottom p-2 flex-grow-1">
+											Bước 5  | Đánh giá và phân tích cuối cùng
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="step__image d-flex">
+							<img class="m-auto img-fluid" src="./../assets/images/the-air-temperature-inside-the-factory.png" alt="">
+						</div>
+						<div class="step__image d-flex">
+							<img class="m-auto" src="./../assets/images/the-air-temperature-inside-the-factory.png" alt="">
+						</div>
+					</div>
+				</section>
+				<!-- Contact -->
+				<section class="section section__contact">
+					<div class="contact__container container--primary h-100">
+						<div class="contact__wrapper">
+							<h2 class="contact__slogan">
+								Cần tư vấn, hãy liên hệ chúng tôi.
+							</h2>
+							<a href="#" class="btn-contact flex-grow-0 mt-3 mt-sm-0">Liên hệ</a>
+						</div>
+					</div>
+				</section>
+			</main>
+			<!-- Footer -->
+			<footer class="footer">
+				<div
+					class="footer__container d-flex flex-column-reverse flex-sm-row justify-content-between align-sm-items-center align-items-start">
+					<div class="footer__logo">
+						<img src="../assets/images/logo-footer.png" alt="Logo">
+					</div>
+					<div class="d-flex gap-5 flex-1">
+						<nav class="d-none d-sm-block">
+							<ul class="nav d-flex flex-column gap-sm-3 gap-0">
+								<li class="nav-item flex-grow-0">
+									<a href="#" class="nav-link active text-uppercase">Trang chủ</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a href="#" class="nav-link text-uppercase">Sản phẩm</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link text-uppercase">Dịch vụ</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link text-uppercase">Dự án</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link text-uppercase">Tin tức</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link text-uppercase">Liên hệ</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="d-flex flex-column gap-4 flex-grow-0">
+							<h2 class="fs-5 text-capitalize d-inline-block w-fit-content fw-bold company__name">
+								Công ty Cổ phần Tư vấn Thiết kế SAO
+							</h2>
+							<div
+								class="d-flex flex-row flex-sm-column gap-2 w-sm-300 flex-wrap flex-sm-nowrap w-100 justify-content-center justify-content-sm-start gap-14">
+								<div class="d-flex flex-column flex-sm-row gap-2 align-items-center w-100 w-sm-auto">
+									<div class="icon-20">
+										<img src="../assets/images/icon_add_location.png" alt="">
+									</div>
+									<p class="footer__text">
+										L17-11, Vincom Center Buildings, 72 Lê Thánh Tôn, P. Bến Nghé, Quận 1, TP. Hồ Chí
+										Minh, Việt Nam
+									</p>
+								</div>
+								<div class="d-flex gap-2 flex-column flex-sm-row align-items-center">
+									<div class="icon-20">
+										<img src="../assets/images/icon_drafts.png" alt="">
+									</div>
+									<p class="footer__text">
+										info@sao-ee.vn
+									</p>
+								</div>
+								<div class="d-flex gap-2 flex-column flex-sm-row align-items-center">
+									<div class="icon-20">
+										<img src="../assets/images/icon_add_ic_call.png" alt="">
+									</div>
+									<p class="footer__text">
+										(+84) 28 6682 2233
+									</p>
+								</div>
+								<div class="d-flex gap-2 flex-column flex-sm-row align-items-center">
+									<div class="icon-20">
+										<img src="../assets/images/icon_margin.png" alt="">
+									</div>
+									<p class="footer__text">
+										MST: 0313639154
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__line">
+				</div>
+				<div class="bg-black text-center fs-6 fw-medium text-white py-3">
+					<p class="mb-0">Copyright © 2024 SAO-EE.All Rights Reserved.</p>
+				</div>
+			</footer>
+		</div>
+		<!-- Main js -->
+		<script src="../assets/js/header.js"></script>
+		<!-- JQuery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<!-- Bootstrap -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+			integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</body>
 </html>

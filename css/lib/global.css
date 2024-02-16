@@ -143,6 +143,20 @@
 	background-size: 20% auto;
 }
 
+.glbg.sub3::before {
+	content: "";
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	position: absolute;
+	background-image: url("../../images/Layer_4.png");
+	background-repeat: no-repeat;
+	background-position: 110% 0;
+    background-size: 30% auto;
+}
+
 section {
 	max-width: 100%;
 	width: 100%;
@@ -313,6 +327,26 @@ section {
 .page-link:hover {
 	background-color: var(--red);
 	color: #fff;
+}
+
+form label {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+form .form-control {
+	background-color: var(--black-7);
+	padding: 10px;
+}
+
+form button[type="submit"] {
+	background-color: var(--red);
+	border-color: var(--red);
+	border-radius: 30px;
+	font-weight: 500;
+	font-size: 20px;
+	padding: 10px 16px;
+	line-height: 20px;
 }
 
 @media (min-width: 992px) {
