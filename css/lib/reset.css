@@ -2,19 +2,20 @@
 
 /* RESET */
 * {
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-    box-sizing: border-box;
-    font-family: 'Exo', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	box-sizing: border-box;
+	font-family: 'Exo', sans-serif;
 }
 
 a {
-    color: #000;
-    text-decoration: none;
+	color: #000;
+	text-decoration: none;
 }
 
-img, svg {
-    max-width: 100%;
-    height: auto;
+img,
+svg {
+	max-width: 100%;
+	height: auto;
 }

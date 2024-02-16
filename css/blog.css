@@ -9,12 +9,14 @@
     position: relative;
     margin-bottom: calc(var(--bs-gutter-x) * 1.5);
 }
+
 .bbox .pimg {
     position: relative;
     z-index: 0;
     overflow: hidden;
     margin-bottom: 1.5em;
 }
+
 .bbox .pimg span {
     content: '';
     padding: 5px 10px;
@@ -24,12 +26,14 @@
     background: var(--blue);
     color: #fff;
 }
+
 .bbox a {
     text-transform: uppercase;
     line-height: 24px;
     color: var(--black-2);
     border-bottom: 1px solid var(--black-5);
 }
+
 .bbox a:hover {
     text-decoration: none;
 }
