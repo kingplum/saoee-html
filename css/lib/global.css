@@ -381,10 +381,6 @@ form button[type="submit"] {
 		width: 100%;
 	}
 
-	.container--primary {
-		padding: 16px !important;
-	}
-
 	.section__title--1 {
 		width: 100%;
 		font-size: 24px;
