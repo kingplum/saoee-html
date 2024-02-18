@@ -76,6 +76,10 @@
 	font-size: 14px !important;
 }
 
+.fs-20 {
+	font-size: 20px !important;
+}
+
 .text-black-4 {
 	color: var(--black-4);
 }
@@ -373,10 +377,10 @@ form button[type="submit"] {
 
 @media (min-width: 992px) {
 	.pe-lg-mx {
-		padding-right: 8rem;
+		padding-right: 8rem !important;
 	}
 	.pb-lg-mx {
-		padding-bottom: 6rem;
+		padding-bottom: 6rem !important;
 	}
 	.py-lg-mx {
 		padding-top: 6rem !important;
