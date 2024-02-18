@@ -362,6 +362,9 @@ form button[type="submit"] {
 	.pe-lg-mx {
 		padding-right: 8rem;
 	}
+	.pb-lg-mx {
+		padding-bottom: 6rem;
+	}
 }
 
 @media (min-width: 768px) {
