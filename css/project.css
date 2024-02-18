@@ -91,3 +91,15 @@
 .slick-initialized.slider-nav .slick-slide.slick-current img {
     opacity: 1;
 }
+
+.cs-pg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid var(--black-7);
+    border-bottom: 1px solid var(--black-7);
+}
+
+.cs-pg li {
+    display: flex;
+    align-items: center;
+}
