@@ -375,6 +375,27 @@ form button[type="submit"] {
 	line-height: 20px;
 }
 
+.cs-pg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid var(--black-7);
+    border-bottom: 1px solid var(--black-7);
+}
+
+.cs-pg li {
+    display: flex;
+    align-items: center;
+}
+
+.post__image {
+	margin-bottom: 24px;
+}
+
+.post__image img {
+	width: 100%;
+	height: auto;
+}
+
 @media (min-width: 992px) {
 	.pe-lg-mx {
 		padding-right: 8rem !important;

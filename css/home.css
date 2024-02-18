@@ -308,21 +308,6 @@
 	margin: 0 auto;
 }
 
-.posts__wrapper {}
-
-.posts__list {
-	margin-top: 40px;
-}
-
-.post__image {
-	margin-bottom: 24px;
-}
-
-.post__image img {
-	width: 100%;
-	height: auto;
-}
-
 /* RESPONSIVE */
 @media screen and (max-width: 576px) {
 	.section__banner {
@@ -468,10 +453,6 @@
 		padding: 16px;
 	}
 
-	.section__posts {
-		padding-left: 0;
-	}
-
 	.section__posts .posts__list {
 		width: 100%;
 		gap: 0;
@@ -484,7 +465,7 @@
 		padding: 0 19px;
 	}
 
-	.posts__list .post__item .post__image img {
+	.posts__list .post__item container img {
 		width: 100%;
 		object-fit: contain;
 	}
