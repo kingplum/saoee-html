@@ -71,3 +71,20 @@
     background-color: var(--red-light);
     color: var(--red);
 }
+
+.blog-detail-content ul li {
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+.blog-detail-content p:empty {
+    display: block;
+    height: 2rem;
+}
+
+.blog-detail-content h2 {
+    font-size: 20px;
+    border-bottom: 1px solid var(--green);
+    font-weight: bold;
+    line-height: 3rem;
+}
