@@ -144,10 +144,6 @@
 	z-index: -1;
 }
 
-.assessment-solution__card {
-	width: 325px;
-}
-
 /*  */
 .section__assessment-solution--wind {
 	padding-top: 150px;
@@ -158,20 +154,6 @@
 	display: grid;
 	grid-template: 285px 285px / 240px 240px 80px;
 	gap: 60px 8px;
-}
-
-.section__natural-lighting {
-	padding-top: 80px;
-	padding-bottom: 115px;
-	background-color: var(--black-7);
-	background-image: url(../images/Layer_4.png);
-	background-repeat: no-repeat;
-	background-position: calc(100% - 1060px) 0;
-}
-
-.section__thermal-comfort {
-	padding-top: 120px;
-	padding-bottom: 150px;
 }
 
 /* RESPONSIVE */

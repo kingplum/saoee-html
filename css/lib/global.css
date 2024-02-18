@@ -44,6 +44,10 @@
 	color: var(--black-3) !important;
 }
 
+.text-500 {
+	font-weight: 500;
+}
+
 .w-fit-content {
 	width: fit-content;
 }
@@ -123,6 +127,15 @@
 }
 
 .sub1, .sub2, .sub3 {
+	position: relative;
+}
+
+.sub1.z0::before, .sub2.z0::before, .sub3.z0::before {
+	z-index: 0 !important;
+}
+
+.sub1>div, .sub2>div, .sub3>div {
+	z-index: 1;
 	position: relative;
 }
 
@@ -364,6 +377,10 @@ form button[type="submit"] {
 	}
 	.pb-lg-mx {
 		padding-bottom: 6rem;
+	}
+	.py-lg-mx {
+		padding-top: 6rem !important;
+		padding-bottom: 6rem !important;
 	}
 }
 
