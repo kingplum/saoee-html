@@ -309,7 +309,7 @@
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 991px) {
 	.section__banner {
 		height: 586px;
 	}
