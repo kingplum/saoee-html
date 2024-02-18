@@ -26,6 +26,7 @@
 	color: #fff;
 	left: calc(50% + 120px);
 	transform: translateX(-50%);
+	text-transform: capitalize;
 }
 
 .banner__methods {
@@ -269,6 +270,11 @@
 	font-size: 1rem;
 }
 
+.slick-light .slick-arrow {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
 .slick-arrow::before {
 	content: none;
 }
@@ -321,14 +327,14 @@
 		left: 0;
 		transform: translateX(0);
 		padding: 10px;
-		text-align: justify;
+		text-align: center;
 		font-weight: 700;
 	}
 
 	.banner__methods {
-		width: 100%;
+		width: calc(100% - 3rem);
 		height: 77px;
-		left: 0;
+		left: 1.5rem;
 	}
 
 	.method__image {
@@ -350,12 +356,28 @@
 		padding: 10px;
 	}
 
-	.power__poster {
-		position: relative;
+	.power__poster img {
+		width: 150%;
+		margin-left: -25%;
+		max-width: none;
+		height: 70vh;
+		object-fit: cover;
 	}
 
 	.product__container {
 		max-width: 100%;
+	}
+
+	.product__banner {
+		background: none;
+	}
+
+	.product__banner::after {
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		background-image: url(../images/product-banner-sp.png);
+		background-size: cover;
 	}
 
 	.product__banner .banner__container {
@@ -368,7 +390,7 @@
 
 	.product__list {
 		padding: 10px;
-		gap: 24px;
+		gap: 40px;
 	}
 
 	.product__card {
@@ -389,9 +411,8 @@
 
 	.service__container .image__container {
 		position: absolute !important;
-		width: 100% !important;
-		right: -30%;
-		top: 50%;
+		right: 0;
+		bottom: 3%;
 	}
 
 	.service__content {
@@ -417,10 +438,6 @@
 
 	.project__carousel {
 		padding: 0 16px;
-	}
-
-	.project__carousel .carousel__list {
-		overflow: hidden;
 	}
 
 	.project__carousel .carousel__item {
@@ -454,8 +471,7 @@
 	}
 
 	.section__posts .posts__list {
-		width: 100%;
-		gap: 0;
+		gap: 40px;
 		overflow: hidden;
 	}
 
@@ -468,5 +484,28 @@
 	.posts__list .post__item container img {
 		width: 100%;
 		object-fit: contain;
+	}
+
+	.section__power .container .row {
+		background: none;
+	}
+
+	.slick-prev {
+		left: 50%;
+		margin-left: -60px;
+	}
+
+	.slick-next {
+		left: calc(50% + 25px);
+	}
+
+	.section__partner .row .col {
+		width: 50%;
+		flex: auto;
+	}
+
+	.section__partner .row .col img {
+		height: 250px;
+		object-fit: none;
 	}
 }

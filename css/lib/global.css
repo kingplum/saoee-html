@@ -481,11 +481,11 @@ form button[type="submit"] {
 }
 
 @media screen and (min-width: 576px) {
-	.w-sm-auto {
+	.w-lg-auto {
 		width: auto !important;
 	}
 
-	.w-sm-300 {
+	.w-lg-300 {
 		width: 300px !important;
 	}
 }

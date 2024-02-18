@@ -42,7 +42,7 @@
 	margin-bottom: 0;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 991px) {
 	.footer {
 		padding-left: 0;
 	}
