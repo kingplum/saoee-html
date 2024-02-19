@@ -112,7 +112,7 @@
 }
 
 .facilities__container .accordion {
-	max-width: 576px;
+	/* max-width: 576px; */
 	margin-top: 70px;
 }
 
@@ -185,18 +185,6 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 991px) {
-	.section__banner .banner__container {
-		height: 110px;
-	}
-
-	.section__banner .banner__container .banner__title {
-		font-size: 20px;
-	}
-
-	.banner__nav {
-		display: none;
-	}
-
 	.section__product .product__container {
 		max-width: 1320px;
 		margin-left: auto;
@@ -250,8 +238,12 @@
 		background-image: none;
 	}
 
+	.facilities__container {
+		padding-bottom: 30px;
+	}
+
 	.facilities__container .accordion {
-		margin-top: 54px;
+		margin-top: 24px;
 	}
 
 	.facilities__image {
@@ -270,5 +262,14 @@
 
 	.section__step .step__image {
 		margin-top: 32px;
+	}
+
+	.facilities__container .facilities__image {
+		position: relative !important;
+	}
+
+	.section__step {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }

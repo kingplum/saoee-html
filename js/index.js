@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
   if($(window).width() <= 991) {
-    $('.section__project .project__carousel .carousel__list').slick({
+    $('.section__project .project__carousel .carousel__list, .advice__carousel .carousel__list').slick({
       infinite: true,
       speed: 300,
       slidesToShow: 3,
