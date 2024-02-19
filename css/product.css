@@ -47,35 +47,6 @@
 	transform: translate(-50%, 50%);
 }
 
-.product__more {}
-
-/* CONTACT */
-.section__contact {
-	max-width: 100%;
-	height: 200px;
-	background-color: #00000071;
-	background-image: url("../images/background_contact.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-blend-mode: overlay;
-}
-
-.section__contact .contact__slogan {
-	font-size: 36px;
-	font-weight: 400;
-	color: var(--black-7);
-	letter-spacing: -2%;
-}
-
-.section__contact .contact__wrapper {
-	max-width: 1056px;
-	margin-right: auto;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
 /* SIMULATION */
 
 
@@ -198,24 +169,6 @@
 
 	.section__product .product__card {
 		width: 100%;
-	}
-
-	.section__contact {
-		height: 164px;
-	}
-
-	.section__contact .contact__container {
-		padding: 0 16px;
-	}
-
-	.section__contact .contact__slogan {
-		font-size: 24px;
-	}
-
-	.section__contact .contact__wrapper {
-		flex-direction: column;
-		align-items: start;
-		justify-content: center;
 	}
 
 	.section__simulation {

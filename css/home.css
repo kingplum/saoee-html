@@ -436,11 +436,6 @@
 		padding: 16px;
 	}
 
-	.section__posts .posts__list {
-		gap: 40px;
-		overflow: hidden;
-	}
-
 	.section__posts .post__item {
 		width: 100%;
 		flex-shrink: 0;
