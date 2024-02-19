@@ -451,3 +451,16 @@
 		background: none;
 	}
 }
+
+@media (max-width: 579px) {
+	.service__container .image__container {
+		bottom: 8%s;
+	}
+	.image__container img {
+		left: 0;
+	}
+	.section__partner .row .col img {
+		height: 200px;
+		object-fit: scale-down;
+	}
+}
