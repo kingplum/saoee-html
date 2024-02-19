@@ -184,11 +184,7 @@
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 576px) {
-	.main {
-		margin-top: 54px;
-	}
-
+@media screen and (max-width: 991px) {
 	.section__banner .banner__container {
 		height: 110px;
 	}

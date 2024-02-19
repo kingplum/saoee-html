@@ -127,7 +127,7 @@
 	background-image: url("../../images/background_2.png");
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	background-size: 20% auto;
+	background-size: 338px auto;
 }
 
 .sub1, .sub2, .sub3 {
@@ -168,7 +168,7 @@
 	background-image: url("../../images/Layer_4.png");
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-size: 20% auto;
+	background-size: 364px auto;
 }
 
 .sub3::before {
