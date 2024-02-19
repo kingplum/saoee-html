@@ -106,4 +106,10 @@ jQuery(document).ready(function($){
       }
     ]
   });
+  $('.header .navbar .nav-item.dropdown i').click(function(e){
+    e.preventDefault();
+    var pr = $(this).closest('.dropdown');
+    pr.toggleClass('open');
+    return false;
+  });
 });

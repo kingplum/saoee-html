@@ -135,4 +135,18 @@
 		background-color: #fff;
 		transform: translateX(0%);
 	}
+
+	.nav-item.dropdown .dropdown-menu li.dropdown-item {
+		white-space: wrap;
+	}
+
+	.header .navbar .nav-item.dropdown i {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		display: flex !important;
+		align-items: center;
+		z-index: 999;
+	}
 }

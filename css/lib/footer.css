@@ -75,5 +75,7 @@
 
 	.footer__container {
 		padding: 30px 10px 40px;
+		background-size: 50% auto;
+    	background-position: 150% 100%;
 	}
 }
