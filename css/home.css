@@ -315,6 +315,18 @@
 }
 
 /* RESPONSIVE */
+@media (min-width: 992px) {
+	.section__partner .row .col {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: fit-content;
+    	flex: auto;
+	}
+	.section__partner .row .col img {
+		object-fit: cover;
+	}
+}
 @media screen and (max-width: 991px) {
 	.section__banner {
 		height: 586px;

@@ -42,6 +42,10 @@
 	margin-bottom: 0;
 }
 
+.footer__container nav ul li a {
+	white-space: nowrap;
+}
+
 @media screen and (max-width: 991px) {
 	.footer {
 		padding-left: 0;

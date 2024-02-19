@@ -407,6 +407,13 @@ form button[type="submit"] {
 		padding-top: 6rem !important;
 		padding-bottom: 6rem !important;
 	}
+	.w-lg-auto {
+		width: auto !important;
+	}
+
+	.w-lg-300 {
+		width: 300px !important;
+	}
 }
 
 @media (max-width: 992px) {
@@ -477,15 +484,5 @@ form button[type="submit"] {
 
 	.footer__container {
 		padding: 30px 10px 40px;
-	}
-}
-
-@media screen and (min-width: 576px) {
-	.w-lg-auto {
-		width: auto !important;
-	}
-
-	.w-lg-300 {
-		width: 300px !important;
 	}
 }
