@@ -500,6 +500,11 @@ form button[type="submit"] {
 		height: 250px;
 		object-fit: none;
 	}
+
+	.row-sp-stretch {
+		width: calc(100% + 4rem);
+		margin-left: -2rem;
+	}
 }
 
 @media (min-width: 768px) {
