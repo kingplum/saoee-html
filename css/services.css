@@ -133,10 +133,6 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 991px) {
-	.main {
-		margin-top: 54px;
-	}
-
 	.section__banner .banner__container {
 		height: 110px;
 	}
