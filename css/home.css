@@ -322,8 +322,8 @@
 	}
 
 	.power__poster img {
-		width: 150%;
-		margin-left: -25%;
+		width: 130%;
+		margin-left: -18%;
 		max-width: none;
 		height: 70vh;
 		object-fit: cover;
@@ -448,6 +448,7 @@
 
 	.section__power {
 		padding-bottom: 0 !important;
+		background: none;
 	}
 
 	.section__power .container .row {
@@ -464,6 +465,9 @@
 }
 
 @media (max-width: 579px) {
+	.section__banner {
+		height: 80vh;
+	}
 	.service__container .image__container {
 		bottom: 5%;
 	}
@@ -479,5 +483,11 @@
 	.product__service {
 		background-size: 80% auto;
 		background-position: 200% 98%;
+	}
+
+	.power__poster img {
+		width: 95%;
+		margin-left: -8%;
+		height: 60vh;
 	}
 }

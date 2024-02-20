@@ -621,4 +621,16 @@ form button[type="submit"] {
 	.fs-20 {
 		font-size: 14px !important;
 	}
+
+	.glbg {
+		background-size: 30% auto;
+	}
+
+	.sub2::before {
+		background-position: -210px 0;
+	}
+
+	.section__heading {
+		margin-bottom: 1em;
+	}
 }

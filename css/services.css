@@ -227,3 +227,19 @@
 		content: none;
 	}
 }
+
+@media (max-width: 579px) {
+	.advice__icon {
+		text-align: center;
+	}
+	.advice__icon img {
+		width: 70%;
+	}
+	.advice__banner .section__title--2 {
+		text-align: left;
+	}
+	.advice__banner .banner__container {
+		z-index: 2;
+		position: relative;
+	}
+}
