@@ -60,8 +60,12 @@
 }
 
 /* SECTION POWER */
-.section__power .container .row {
-	background: url(../images/power.png) center right no-repeat;
+.section__power {
+	background-image: url(../images/power.png);
+	background-position: center right;
+    background-repeat: no-repeat;
+    padding-bottom: 10rem !important;
+	background-size: 65% auto;
 }
 
 /* SECTION PRODUCT */
@@ -442,11 +446,15 @@
 		object-fit: contain;
 	}
 
+	.section__power {
+		padding-bottom: 0 !important;
+	}
+
 	.section__power .container .row {
 		background: none;
 	}
 
-	.call-action span {
+	.section__project .call-action span {
 		color: #fff;
 	}
 
