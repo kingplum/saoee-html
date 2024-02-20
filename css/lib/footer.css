@@ -53,7 +53,6 @@
 
 	.footer__container {
 		gap: 95px;
-		padding: 20px;
 	}
 
 	.footer__line {
@@ -74,8 +73,9 @@
 	}
 
 	.footer__container {
-		padding: 30px 10px 40px;
 		background-size: 50% auto;
     	background-position: 150% 100%;
 	}
+
+	footer__logo img 
 }
