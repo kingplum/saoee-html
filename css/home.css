@@ -466,7 +466,7 @@
 
 @media (max-width: 579px) {
 	.section__banner {
-		height: 80vh;
+		height: 70vh;
 	}
 	.service__container .image__container {
 		bottom: 5%;
