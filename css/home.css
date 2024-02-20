@@ -449,13 +449,19 @@
 
 @media (max-width: 579px) {
 	.service__container .image__container {
-		bottom: 8%s;
+		bottom: 5%;
 	}
 	.image__container img {
-		left: 0;
+		left: -13px;
+		width: 170%;
+		max-width: none;
 	}
 	.section__partner .row .col img {
 		height: 200px;
 		object-fit: scale-down;
+	}
+	.product__service {
+		background-size: 80% auto;
+		background-position: 200% 98%;
 	}
 }
