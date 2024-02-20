@@ -156,3 +156,14 @@
 		display: block;
 	}
 }
+
+@media (max-width: 579px) {
+	.header .navbar .open .dropdown-menu {
+		width: calc(100vw - 35px);
+	}
+	.nav-item.dropdown .dropdown-menu li.dropdown-item {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
