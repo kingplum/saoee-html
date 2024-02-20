@@ -445,6 +445,14 @@
 	.section__power .container .row {
 		background: none;
 	}
+
+	.call-action span {
+		color: #fff;
+	}
+
+	.call-action .icon-black-6 {
+		background-color: var(--red);
+	}
 }
 
 @media (max-width: 579px) {
