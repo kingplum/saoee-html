@@ -78,18 +78,34 @@
 					<li class="nav-item">
 						<a href="contact.html" class="nav-link text-uppercase">Liên hệ</a>
 					</li>
-					<li class="nav-item d-block d-md-block d-sm-block d-lg-none">
+					<li class="nav-item d-flex d-md-flex d-sm-flex d-lg-none">
 						<a class="nav-link"><div class="icon-32 p-1">
-							<img src="./images/vietnam 1.png" alt="Việt Nam">
+							<img src="./images/vi-flag.png" alt="Việt Nam">
+						</div></a>
+						<a class="nav-link"><div class="icon-32 p-1">
+							<img src="./images/ja-flag.png" alt="Việt Nam">
+						</div></a>
+						<a class="nav-link"><div class="icon-32 p-1">
+							<img src="./images/eng-flag.png" alt="Việt Nam">
 						</div></a>
 					</li>
 				</ul>
 			</nav>
-			<div class="d-lg-flex d-sm-none d-md-none d-none justify-content-between container align-items-center p-0 px-3">
-				<div class="icon-32">
-					<img src="./images/vietnam 1.png" alt="Việt Nam">
+			<div class="d-lg-flex d-sm-none d-md-none d-none justify-content-between container align-items-center p-0 px-2">
+				<div class="dropdown">
+					<button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="language" data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-vn me-1"></span> <span>Việt Nam</span></button>
+					<ul class="dropdown-menu" aria-labelledby="language">
+						<li>
+							<a class="dropdown-item active" href="#"><span class="flag-icon flag-icon-vn me-1"></span> <span>Việt Nam</span></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#"><span class="flag-icon flag-icon-jp me-1"></span> <span>Japan</span></a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#"><span class="flag-icon flag-icon-us me-1"></span> <span>English</span></a>
+						</li>
+					</ul>
 				</div>
-				<i class="fa-solid fa-chevron-down p-1"></i>
 			</div>
 			<div class="header__menu-icon d-block d-sm-block d-md-block d-lg-none p-3">
 				<i class="fa-solid fa-bars"></i>
@@ -341,7 +357,7 @@
 			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
 			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<!-- Bootstrap -->
-		<script src="./bootstrap/js/bootstrap.min.js"></script>
+		<script src="./bootstrap/js/bootstrap.bundle.js"></script>
 		<!-- Main js -->
 		<script src="./slick/slick.min.js"></script>
 		<script src="./js/header.js"></script>

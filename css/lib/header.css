@@ -69,6 +69,26 @@
 .nav-item.dropdown .dropdown-menu li.dropdown-item a:hover {
 	color: var(--blue);
 }
+#language {
+	background: none;
+    color: #000;
+    font-size: 13px;
+    padding: 0;
+    margin-left: 0;
+	width: 101px;
+	border: none;
+}
+ul[aria-labelledby="language"] {
+	min-width: 101px;
+	padding: 0;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	font-size: 12px;
+}
+.flag-icon {
+	border: 1px solid #ccc;
+	height: 13px;
+}
 
 @media (min-width: 992px) {
 	.nav-item.dropdown:hover .dropdown-menu {
