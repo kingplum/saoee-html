@@ -409,6 +409,7 @@ form button[type="submit"] {
 	border: 1px solid var(--black-3);
 	color: var(--black-3);
 	font-size: 1rem;
+	z-index: 9;
 }
 .btn--controll:hover,
 .slick-arrow:hover {
