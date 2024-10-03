@@ -309,6 +309,11 @@
 }
 
 /* RESPONSIVE */
+@media (max-width: 1500px) {
+	.banner-sl .slick-slide > div h2 {
+		top: 65%;
+	}
+}
 @media (min-width: 992px) {
 	.section__partner .row .col {
 		display: flex;
@@ -538,5 +543,6 @@
         font-size: 25px;
         left: 50%;
 		transform: translateX(-20%);
+		top: 55%;
     }
 }
