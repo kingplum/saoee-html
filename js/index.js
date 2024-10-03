@@ -117,31 +117,29 @@ jQuery(document).ready(function($){
   $('.banner-sl').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    //autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     arrows: false
   });
   $('.partner-sl').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     infinite: true,
-    prevArrow: '<button class="btn--controll slick-prev"><i class="fa-solid fa-chevron-left"></i></button>',
-    nextArrow: '<button class="btn--controll slick-next"><i class="fa-solid fa-chevron-right"></i></button>',
+    prevArrow: '<button class="btn--controll slick-prev"><i class="fa-solid fa-arrow-left"></i></button>',
+    nextArrow: '<button class="btn--controll slick-next"><i class="fa-solid fa-arrow-right"></i></button>',
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          arrows: false
+          slidesToShow: 2
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          arrows: false
+          slidesToShow: 1
         }
       }
     ]
