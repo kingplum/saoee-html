@@ -271,6 +271,22 @@
 .banner-sl .slick-slide > div {
 	padding: 0;
 	margin: 0;
+	position: relative;
+}
+.banner-sl .slick-slide > div img {
+	width: 100%;
+}
+.banner-sl .slick-slide > div h2 {
+	font-size: 64px;
+    position: absolute;
+    bottom: 130px;
+    width: 642px;
+    color: #fff;
+    left: calc(50% + 90px);
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    font-weight: bold;
+	top: 50%;
 }
 .partner-sl .slick-track
 {
@@ -486,6 +502,10 @@
 	.call-action .icon-black-6 {
 		background-color: var(--red);
 	}
+
+	.banner-sl .slick-slide > div h2 {
+		font-size: 45px;
+	}
 }
 
 @media (max-width: 579px) {
@@ -514,4 +534,9 @@
 		margin-left: -8%;
 		height: 60vh;
 	}
+	.banner-sl .slick-slide > div h2 {
+        font-size: 25px;
+        left: 50%;
+		transform: translateX(-20%);
+    }
 }
